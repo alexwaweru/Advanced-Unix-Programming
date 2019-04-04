@@ -13,4 +13,9 @@ multitude of options, which are specified by the oflag argument. This argument i
 formed by ORing together one or more of the following constants from the <fcntl.h>
 header:
 
-..* one
+These constants must be stated:
+* O_RDONLY: Open for reading only.
+* O_WRONLY: Open for writing only.
+* O_RDWR: Open for reading and writing.
+* O_EXEC: Open for execute only.
+* O_SEARCH: Open for search only (applies to directories).
